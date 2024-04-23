@@ -6,14 +6,15 @@ maps.os = {
   darwin: "Darwin",
   win32: "Windows",
   linux: "Linux",
+  freebsd: 'FreeBSD'
 };
 
 await prepare({
   remote: "github",
-  author: "conventionalcommit",
-  repository: "commitlint",
+  author: "evilmartians",
+  repository: "lefthook",
   remoteToken: process.env.GITHUB_TOKEN,
-  binary: "commitlint",
+  binary: "lefthook",
   stableOnly: false,
   orders: ["binary", "version", "os", "arch"],
 });
