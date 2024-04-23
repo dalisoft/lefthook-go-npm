@@ -3,7 +3,7 @@ import { prepare, maps } from "binary2npm";
 maps.arch.arm64 = "arm64";
 maps.vendor = {};
 maps.os = {
-  darwin: "Darwin",
+  darwin: "MacOS",
   win32: "Windows",
   linux: "Linux",
   freebsd: 'FreeBSD'
