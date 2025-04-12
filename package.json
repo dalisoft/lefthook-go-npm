@@ -1,6 +1,6 @@
 {
   "name": "lefthook-go-npm",
-  "version": "1.11.8",
+  "version": "1.11.9",
   "type": "module",
   "description": "Fast and powerful Git hooks manager for any type of projects",
   "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, Valentin Kiselev",
